@@ -105,6 +105,7 @@
     <Compile Include="Region.cs">
       <DependentUpon>Context.tt</DependentUpon>
     </Compile>
+    <Compile Include="Repository.cs" />
     <Compile Include="Shippers.cs">
       <DependentUpon>Context.tt</DependentUpon>
     </Compile>
