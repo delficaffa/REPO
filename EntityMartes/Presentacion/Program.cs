@@ -19,7 +19,7 @@ namespace Presentacion
                 switch (opcion.ToLower())
                 {
                     case "a":
-                        //AgregarCliente();
+                        MenuAgregarCliente();
                         break;
                     case "e":
                         break;
@@ -30,6 +30,12 @@ namespace Presentacion
                         break;
                 }
             } while (opcion != "s");
+        }
+
+        public static void MenuAgregarCliente()
+        {
+
+            Console.WriteLine("Ingrese el nombre de la empresa");
         }
     }
 }
